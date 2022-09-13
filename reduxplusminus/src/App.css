@@ -1,0 +1,17 @@
+a{
+  text-decoration: none!important;
+  
+}
+.navbar{
+  background:rgb(230, 227, 227);
+}
+.navbar a{
+  padding: 10px 15px;
+  color:#000;
+  font-size: 17px;
+}
+.navicon svg{
+    width:24px;
+    height: 24px; 
+    margin:0 12px;
+}
