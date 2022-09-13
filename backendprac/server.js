@@ -6,7 +6,7 @@ const mongoose = require("mongoose")
 
 const {readdirSync} = require("fs")
 app.use(cors())
-
+app.use(express.json())
 console.log(readdirSync("./routes"))
 readdirSync("./routes").map(f=> app.use("/",require("./routes/"+f)))
 
